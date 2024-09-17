@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.341);
+    color: black;
+    z-index: 9999;
+ }
+
+ nav img{
+    width: 100px;
+    height: 100%;
+ }
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .container{
+    display: flex;
+}
+nav .container .start{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+nav .container .end{
+    width: 30%;
+}
+.NavList{
+    width: 100%;
+}
+.NavList ul{
+    display: flex;
+    justify-content: space-between;
+}
+.NavList ul li{
+    list-style: none;
+    color: black;
+}
+nav .container .end{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+header{
+    background-image: url('res.jpeg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    gap: 20px;
+}
+.Head img{
+    width: 400px;
+    height: 200px;
+}
+.Head h1{
+    font-size: 60px;
+    font-weight: 200;
+    font-family: "Sofadi One", system-ui;
+ }
+ .Head p{
+    font-family: "Sofadi One", system-ui;
+    font-size: 20px;
+ }
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.buttons button{
+    padding: 15px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #c1ab84;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example{
+    from{background-color: #c1ab84;}
+    to{background-color: white;}
+
+}
+.buttons button:first-of-type{
+    background-color: #c1ab84;
+
+}
+i{
+    color: #969696;
+}
+footer{
+    background-color: #353330;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #969696;
+    ;
+}
+footer h3{
+    color: white;
+}
+footer ul li{
+    border-bottom: 2px solid rgba(50, 49, 49, 0.773);
+}
+footer li a{
+    color: #969696;
+}
+footer .MainFooter{
+    background-color: #403d38;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.Sec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sec ul{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.FooterSec4, .FooterSec1{
+width: 25%;
+}
+.FooterSec4 img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    opacity: 0.05;
+  
+
+}
+.FooterSec4 ul li{
+    display: flex;
+    gap: 10px;
+}
+ul li:last-of-type{
+    border-bottom: none;
+}
+footer .SubFooter{
+    background-color: #353330;
+    display: flex;
+    justify-content: center;
+}
+footer .SubFooter .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.icons .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #484540;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center; 
+    justify-content: center;
+}
+.icons .icon i{
+     font-size: 40px;
+     color: #8c8a86;
+     
+}
+footer .SubFooter .container img{
+    height: 200px;
+    width: 400px;
+}
+
+
+
+
